@@ -1,7 +1,7 @@
 from set_context import set_context
 
 # 用户名
-user_name = '你滴玺哥'
+user_name = '泥滴玺哥'
 gpt_name = 'ChatGPT'
 # 头像(svg格式) 来自 https://www.dicebear.com/playground?style=identicon
 user_svg = """
