@@ -113,6 +113,7 @@ with st.sidebar:
     st.caption("""
     - 双击页面可直接定位输入栏
     - Ctrl + Enter 可快捷提交问题
+    - 重要‼️ 此程序可能有多人使用，所以若你的信息隐秘，请及时删除对话， 否则会被记录。
     """)
     st.markdown('<a href="https://github.com/PierXuY/ChatGPT-Assistant" target="_blank" rel="ChatGPT-Assistant">'
                 '<img src="https://badgen.net/badge/icon/GitHub?icon=github&amp;label=ChatGPT Assistant" alt="GitHub">'
