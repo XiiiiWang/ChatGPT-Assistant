@@ -5,7 +5,7 @@
 - 预设聊天上下文 
 - 模型参数调节
 - 对话导出为Markdown文件
-- 语音交互功能即将上线
+- ChatGPT语音交流（推荐电脑端Edge浏览器）
 ## 🤩 [已部署项目](https://pearxuy-gpt.streamlit.app/)
 - 直接使用已部署项目，可在网页的设置选项中配置Openai Key，此时不会留存历史对话，仅在用户当前会话有效，他人不会共享。
 - 自行部署项目，在Secrets中配置Openai Key后，将留存历史对话记录，此时需设置为私人应用，打造为个人GPT助理。   
@@ -28,16 +28,6 @@
   <img src="https://pic1.58cdn.com.cn/nowater/webim/big/n_v29272f48753c742d088f124336023f480.png" alt="set-apikey.png" style="flex: 1; width: 40%;" />
 </div>   
 也可以在部署完成后再进行配置。
-
-## Hugging Face部署
-一键复制[已部署项目](https://huggingface.co/spaces/Pearx/ChatGPT-Assistant)即可，同样无须科学上网，注意设置为私人应用。   
-
-有以下几点不同于Streamlit Cloud：
-- 侧边栏会随主体页面拓展，当聊天记录过多时不方便切换窗口。
-- 当Files中的文件更新时，历史聊天记录会被清空。   
-
-复制项目后，在Hugging Face的Settings中设置Secrets即可。参考下图：
-<img src="https://pic2.58cdn.com.cn/nowater/webim/big/n_v2ab9e3ca91d034642b734afd82de09724.png" alt="hf_secrets.png" style="flex: 1; width: 50%;" />
 
 ## 本地部署
 本地部署需要科学上网。
@@ -71,3 +61,4 @@ streamlit run app.py
 # 致谢
 - 最早是基于[shan-mx/ChatGPT_Streamlit](https://github.com/shan-mx/ChatGPT_Streamlit)项目进行的改造，感谢。
 - 预设的[上下文功能](https://github.com/PierXuY/ChatGPT-Assistant/blob/main/set_context.py)参考自[binary-husky/chatgpt_academic](https://github.com/binary-husky/chatgpt_academic)项目和[f/awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts)项目，感谢。
+- 语音交互功能参考了项目[talk-to-chatgpt](https://github.com/C-Nedelcu/talk-to-chatgpt)和[Voice Control for ChatGPT](https://chrome.google.com/webstore/detail/voice-control-for-chatgpt/eollffkcakegifhacjnlnegohfdlidhn)的实现，感谢。
